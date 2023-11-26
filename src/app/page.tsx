@@ -1,8 +1,8 @@
-import Button from '@/app/components/Button'
+import Hero from './components/Hero'
 export default function Home() {
   return (
    <>
-    <Button />
+    <Hero />
    </>
   )
 }
