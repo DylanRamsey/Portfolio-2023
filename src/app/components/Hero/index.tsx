@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 
 export default function Hero() {
   return (
-    <div className="container flex justify-between mx-auto">
+    <section className="container flex justify-between mx-auto mb-44">
       <div>
         <h1 className="text-8xl mb-8">
           Dylan Ramsey
@@ -52,6 +52,6 @@ export default function Hero() {
         src={"/images/dylan_and_data_website_profile.webp"}
         alt="Picture of Dylan and his dog"
       />
-    </div>
+    </section>
   )
 }
