@@ -1,0 +1,32 @@
+{
+  "projects": [ 
+    {
+      "name": "East Coast K9",
+      "link": "https://eastcoastk9fl.com/",
+      "github": "https://github.com/DylanRamsey/east-coast-k9",
+      "figma": "https://www.figma.com/file/SeUvKHhQQKwu5VLXYMl5yy/East-Coast-K9?type=design&node-id=0-1&mode=design&t=qw8doLHzKMSSikpC-0"  
+    },
+    {
+      "name": "Stone Creek Dachshunds",
+      "link": "https://stonecreekdachshunds.com/",
+      "github": "https://github.com/DylanRamsey/stone-creek-dachshunds",
+      "figma": "https://www.figma.com/file/PNp85T4RsCidGH27kvm98i/Stone-Creek-Dachshunds?type=design&node-id=0-1&mode=design&t=qw8doLHzKMSSikpC-0"  
+    },
+    {
+      "name": "Breezeline",
+      "link": "https://www.breezeline.com/"
+    },
+    {
+      "name": "Ramsey + Turner Recipes",
+      "link": "https://rt-recipes.onrender.com/",
+      "github": "https://github.com/DylanRamsey/recipe-app",
+      "figma": "https://www.figma.com/file/BQVoL5KYMPOE5XwrFSt4JG/Ramsey-%2B-Turner-Recipes?type=design&mode=design&t=qw8doLHzKMSSikpC-0"  
+    },
+    {
+      "name": "Dylan Ramsey",
+      "link": "#",
+      "github": "https://github.com/DylanRamsey/Portfolio-2023",
+      "figma": "https://www.figma.com/file/pgLaRRramSMMtYGB6RnNwi/Personal-Website-2022?type=design&mode=design&t=qw8doLHzKMSSikpC-0"  
+    }    
+  ]
+}

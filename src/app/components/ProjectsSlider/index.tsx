@@ -6,35 +6,37 @@ import 'swiper/css';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
+import * as projectData from "../../../../public/data/projects.json"
+/* 
+Get data together for projects that will appear in the ProjectsSlider, import that
+data into this file, and then loop over that data, for each object create a project card
+*/
+
+const projects = projectData.projects;
 
 export default function ProjectsSlider() {
   return (
     <section className="container mx-auto">
-      <h2 className="text-6xl text-center mb-8">My Projects</h2>
+      <div>
+
+      </div>
+      <h2 className="text-6xl text-center mb-8">My Work</h2>
       <Swiper 
         navigation={true} 
         modules={[Navigation]} 
         slidesPerView={3}
         spaceBetween={30}
         className="mySwiper">
-        <SwiperSlide>
-          <ProjectCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ProjectCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ProjectCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ProjectCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ProjectCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ProjectCard />
-        </SwiperSlide>
+        {projects.map((project, index) => (
+          <SwiperSlide key={index}>
+            <ProjectCard
+              projectName={project.name}
+              projectLink={project.link}
+              projectGithub={project.github}
+              projectFigma={project.figma}
+            />
+          </SwiperSlide>        
+        ))}          
       </Swiper>        
     </section>
   )
