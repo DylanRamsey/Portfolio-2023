@@ -6,6 +6,7 @@ import 'swiper/css';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
+import Button from '../Button';
 import * as projectData from "../../../../public/data/projects.json"
 /* 
 Get data together for projects that will appear in the ProjectsSlider, import that
@@ -16,9 +17,8 @@ const projects = projectData.projects;
 
 export default function ProjectsSlider() {
   return (
-    <section className="container mx-auto">
+    <section className="container mx-auto mb-44">
       <div>
-
       </div>
       <h2 className="text-6xl text-center mb-8">My Work</h2>
       <Swiper 
@@ -26,7 +26,7 @@ export default function ProjectsSlider() {
         modules={[Navigation]} 
         slidesPerView={3}
         spaceBetween={30}
-        className="mySwiper">
+        className="mySwiper mb-8">
         {projects.map((project, index) => (
           <SwiperSlide key={index}>
             <ProjectCard
@@ -37,7 +37,8 @@ export default function ProjectsSlider() {
             />
           </SwiperSlide>        
         ))}          
-      </Swiper>        
+      </Swiper>
+      <Button buttonText="View my full portfolio" />
     </section>
   )
 }
