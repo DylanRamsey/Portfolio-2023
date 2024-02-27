@@ -18,7 +18,7 @@ const projects = projectData.projects;
 export default function ProjectsSlider() {
   return (
     <section className="container mx-auto mb-44">
-      <h2 className="text-6xl text-center mb-8">My Work</h2>
+      <h2 className="text-6xl text-center mb-20">My Work</h2>
       <Swiper 
         navigation={true} 
         modules={[Navigation]} 
