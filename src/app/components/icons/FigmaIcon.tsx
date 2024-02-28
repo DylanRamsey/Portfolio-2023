@@ -4,7 +4,7 @@ interface Props {
   color: string
 }
 
-export default function IconOpenLink(props: Props) {
+export default function FigmaIcon(props: Props) {
   return (
 <svg width={props.iconWidth} height={props.iconHeight} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> 
   <path d="M12.0002 2H8.66683C6.82588 2 5.3335 3.49238 5.3335 5.33333C5.3335 7.17428 6.82588 8.66667 8.66683 8.66667H12.0002V2Z" stroke={props.color}  strokeWidth="1.5"></path> 
