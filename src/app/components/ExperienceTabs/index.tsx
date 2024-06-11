@@ -22,12 +22,12 @@ const ExperienceTabs = () => {
             value={selectedTab}
             onChange={handleChange}
           >
-            {jobsData.experience.map((job, index) => (
+            {jobsData.map((job, index) => (
               <Tab className='bg-blue border-solid border-white lg:first:border-t-[3px] first:border-r-[3px] lg:first:border-r-0 lg:border-b-[3px] text-white align-left' label={job.title} key={index} />
             ))}
           </Tabs>
           <Box className="m-auto" sx={{ flexGrow: 1, p: 3 }}>
-            {jobsData.experience.map((job, index) => (
+            {jobsData.map((job, index) => (
               <TabPanel  value={selectedTab} index={index} key={index}>
                 <h3 className='text-2xl'>{job.title}</h3>
                 <span className='block'>{job.location} {job.duration}</span>

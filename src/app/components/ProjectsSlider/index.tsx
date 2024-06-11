@@ -7,8 +7,6 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import * as projectData from "@/app/data/projects.json";
 
-const projects = projectData.projects;
-
 export default function ProjectsSlider() {
   return (
     <section className="container mx-auto mb-20 px-6 xl:px-0">
@@ -25,7 +23,7 @@ export default function ProjectsSlider() {
           },
         }}
         className="mySwiper mb-8">
-        {projects.map((project, index) => (
+        {projectData.map((project, index) => (
           <SwiperSlide key={index}>
             <ProjectCard
               projectName={project.name}
