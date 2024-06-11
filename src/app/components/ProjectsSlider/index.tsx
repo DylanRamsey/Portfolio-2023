@@ -5,7 +5,7 @@ import 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
-import * as projectData from "@/app/data/projects.json";
+import projects from "@/app/data/projects.js";
 
 export default function ProjectsSlider() {
   return (
@@ -23,7 +23,7 @@ export default function ProjectsSlider() {
           },
         }}
         className="mySwiper mb-8">
-        {projectData.map((project, index) => (
+        {projects.map((project, index) => (
           <SwiperSlide key={index}>
             <ProjectCard
               projectName={project.name}

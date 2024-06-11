@@ -6,10 +6,9 @@ import 'swiper/css';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
-import * as brandimages from "@/app/data/brandImagePaths.json"
+import brandImages from "@/app/data/brandImagePaths.js"
 import Image from 'next/image'
 
-const brands = brandimages.brandImages;
 
 export default function BrandsSlider() {
   return (
@@ -26,7 +25,7 @@ export default function BrandsSlider() {
           },
         }}
         className="mySwiper mb-8">
-        {brands.map((brand, index) => (
+        {brandImages.map((brand, index) => (
           <SwiperSlide key={index} className='my-auto'>
             <Image className="object-contain ml-16"
               src={brand.link}
