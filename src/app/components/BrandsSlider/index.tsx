@@ -6,8 +6,7 @@ import 'swiper/css';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
-import * as projectData from "@/../public/data/projects.json"
-import * as brandimages from "@/../public/data/brandImagePaths.json"
+import * as brandimages from "@/app/data/brandImagePaths.json"
 import Image from 'next/image'
 
 const brands = brandimages.brandImages;

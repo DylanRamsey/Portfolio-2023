@@ -1,5 +1,5 @@
 "use client";
-import * as tools from "@/../public/data/tools.json"
+import * as tools from "@/app/data/tools.json"
 import Image from 'next/image'
 
 const toolsList = tools.tools;

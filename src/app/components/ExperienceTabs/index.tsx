@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import { Tabs, Tab, Box, Typography } from '@mui/material';
-import * as jobsData from "@/../public/data/experience.json"
+import * as jobsData from "@/app/data/experience.json"
 
 const ExperienceTabs = () => {
   const [selectedTab, setSelectedTab] = useState(0);

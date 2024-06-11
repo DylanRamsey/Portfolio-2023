@@ -5,7 +5,7 @@ import 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
-import * as projectData from "@/../public/data/projects.json"
+import * as projectData from "@/app/data/projects.json";
 
 const projects = projectData.projects;
 
