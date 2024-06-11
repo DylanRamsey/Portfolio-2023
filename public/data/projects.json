@@ -1,32 +1,39 @@
 {
-  "projects": [ 
+  "projects": [
     {
       "name": "East Coast K9",
       "link": "https://eastcoastk9fl.com/",
-      "github": "https://github.com/DylanRamsey/east-coast-k9",
-      "figma": "https://www.figma.com/file/SeUvKHhQQKwu5VLXYMl5yy/East-Coast-K9?type=design&node-id=0-1&mode=design&t=qw8doLHzKMSSikpC-0"  
-    },
-    {
-      "name": "Stone Creek Dachshunds",
-      "link": "https://stonecreekdachshunds.com/",
-      "github": "https://github.com/DylanRamsey/stone-creek-dachshunds",
-      "figma": "https://www.figma.com/file/PNp85T4RsCidGH27kvm98i/Stone-Creek-Dachshunds?type=design&node-id=0-1&mode=design&t=qw8doLHzKMSSikpC-0"  
+      "screenshot": "/images/screenshots/eck.webp"
     },
     {
       "name": "Breezeline",
-      "link": "https://www.breezeline.com/"
+      "link": "https://www.breezeline.com/",
+      "screenshot": "/images/screenshots/breezeline-screenshot.webp"
     },
     {
-      "name": "Ramsey + Turner Recipes",
-      "link": "https://rt-recipes.onrender.com/",
-      "github": "https://github.com/DylanRamsey/recipe-app",
-      "figma": "https://www.figma.com/file/u0QaIPJSR7C7vvCBciam60/Next.js-Personal-Website?type=design&node-id=0-1&mode=design&t=qw8doLHzKMSSikpC-0"  
+      "name": "Sana",
+      "link": "https://www.sanabenefits.com/",
+      "screenshot": "/images/screenshots/sana.webp"
     },
     {
-      "name": "Dylan Ramsey",
-      "link": "#",
-      "github": "https://github.com/DylanRamsey/Portfolio-2023",
-      "figma": "https://www.figma.com/file/pgLaRRramSMMtYGB6RnNwi/Personal-Website-2022?type=design&mode=design&t=qw8doLHzKMSSikpC-0"  
-    }    
+      "name": "Lamborghini Sarasota",
+      "link": "https://www.lamborghinisarasota.com/",
+      "screenshot": "/images/screenshots/lambo-sara.webp"
+    },
+    {
+      "name": "Salt & Barrel",
+      "link": "https://saltandbarrel.com/",
+      "screenshot": "/images/screenshots/salt-and-barrel.webp"
+    },
+    {
+      "name": "Borla",
+      "link": "https://www.borla.com/",
+      "screenshot": "/images/screenshots/borla.webp"
+    },
+    {
+      "name": "McGraths",
+      "link": "https://mcgrathslwr.com/",
+      "screenshot": "/images/screenshots/mcgraths.webp"
+    }
   ]
 }

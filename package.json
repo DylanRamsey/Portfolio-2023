@@ -11,7 +11,10 @@
     "storybook": "storybook dev -p 6006"
   },
   "dependencies": {
-    "next": "14.0.3",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.19",
+    "next": "^14.2.3",
     "react": "^18",
     "react-dom": "^18",
     "react-tabs": "^6.0.2",

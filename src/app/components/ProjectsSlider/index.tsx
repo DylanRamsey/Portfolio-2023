@@ -4,26 +4,27 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/react';
 import 'swiper/css';
 import 'swiper/css';
-import 'swiper/css/navigation';
-import { Navigation } from 'swiper/modules';
-import Button from '@/app/components/Button';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules';
 import * as projectData from "@/../public/data/projects.json"
-/* 
-Get data together for projects that will appear in the ProjectsSlider, import that
-data into this file, and then loop over that data, for each object create a project card
-*/
 
 const projects = projectData.projects;
 
 export default function ProjectsSlider() {
   return (
-    <section className="container mx-auto mb-44">
-      <h2 className="text-6xl text-center mb-20">My Work</h2>
-      <Swiper 
-        navigation={true} 
-        modules={[Navigation]} 
-        slidesPerView={3}
-        spaceBetween={30}
+    <section className="container mx-auto mb-20 px-6 xl:px-0">
+      <h2 className="text-3xl lg:text-6xl text-center mb-8 lg:mb-16 pt-12" id="myWork">My Work</h2>
+      <Swiper
+        pagination={true}
+        modules={[Pagination]}
+        slidesPerView={1}
+        spaceBetween={10}
+        loop={true}
+        breakpoints={{
+          768: {
+            slidesPerView: 3,
+          },
+        }}
         className="mySwiper mb-8">
         {projects.map((project, index) => (
           <SwiperSlide key={index}>
@@ -32,11 +33,12 @@ export default function ProjectsSlider() {
               projectLink={project.link}
               projectGithub={project.github}
               projectFigma={project.figma}
+              projectScreenshot={project.screenshot}
             />
-          </SwiperSlide>        
-        ))}          
+          </SwiperSlide>
+        ))}
       </Swiper>
-      <Button buttonText="View my full portfolio" />
+      {/* <Button buttonText="View my full portfolio" /> */}
     </section>
   )
 }
