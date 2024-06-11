@@ -3,7 +3,6 @@ import ProjectCard from '@/app/components/ProjectCard'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/react';
 import 'swiper/css';
-import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import * as projectData from "@/../public/data/projects.json"
@@ -31,8 +30,6 @@ export default function ProjectsSlider() {
             <ProjectCard
               projectName={project.name}
               projectLink={project.link}
-              projectGithub={project.github}
-              projectFigma={project.figma}
               projectScreenshot={project.screenshot}
             />
           </SwiperSlide>

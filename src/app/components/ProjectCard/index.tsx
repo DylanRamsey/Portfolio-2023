@@ -2,7 +2,7 @@ import IconOpenLink from '../icons/IconOpenLink'
 import GitHubIcon from '../icons/GitHubIcon'
 import FigamIcon from '../icons/FigmaIcon'
 
-export default function ProjectCard({projectName, projectLink, projectGithub, projectFigma, projectScreenshot}) {
+export default function ProjectCard({projectName, projectLink, projectScreenshot}) {
   return (
     <section>
       <div className='block mx-auto lg:w-72	xl:w-96'>
@@ -23,18 +23,6 @@ export default function ProjectCard({projectName, projectLink, projectGithub, pr
             {projectLink ?
               <a href={projectLink} target="_blank">
                 <IconOpenLink iconHeight={30} color="black" />
-              </a>
-              : null
-            }
-            {projectGithub ?
-              <a href={projectGithub} target="_blank">
-                <GitHubIcon iconHeight={39} iconWidth={40} color="black" />
-              </a>
-              : null
-            }
-            {projectFigma ?
-              <a href={projectFigma} target="_blank">
-                <FigamIcon iconHeight={39} iconWidth={40} color="black" />
               </a>
               : null
             }
