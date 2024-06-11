@@ -4,6 +4,7 @@
     "plugin:storybook/recommended"
   ],
   "rules": {
-    "react/jsx-no-duplicate-props": [1, { "ignoreCase": false }]
+    "react/jsx-no-duplicate-props": [1, { "ignoreCase": false }],
+    "react/jsx-key": [1, { "checkFragmentShorthand": true }],
   }
 }
