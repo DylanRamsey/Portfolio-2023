@@ -44,7 +44,7 @@ const tools = [
     alt: "WordPress"
   },
   {
-    link: "/tools/figma.webp",
+    link: "/images/tools/figma.webp",
     alt: "Figma"
   }
 ]
