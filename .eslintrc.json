@@ -1,7 +1,6 @@
 {
   "extends": [
     "next/core-web-vitals",
-    "plugin:storybook/recommended"
   ],
   "rules": {
     "react/jsx-no-duplicate-props": [1, { "ignoreCase": false }],
