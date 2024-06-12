@@ -44,7 +44,7 @@ const tools = [
     alt: "WordPress"
   },
   {
-    link: "/tools/figma.webp",
+    link: "https://fastly.picsum.photos/id/411/536/354.jpg?hmac=eOcZ43uK5zeO4ihY9ob5f3nvoLtM5sZsdg6fR0_xTA0",
     alt: "Figma"
   }
 ]
