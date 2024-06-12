@@ -14,6 +14,7 @@ export default function BrandsSlider() {
               alt={tool.alt}
               width={300}
               height={300}
+              unoptimized
             />
           </div>
         ))}

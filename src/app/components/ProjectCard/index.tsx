@@ -1,6 +1,5 @@
 import IconOpenLink from '../icons/IconOpenLink'
-import GitHubIcon from '../icons/GitHubIcon'
-import FigamIcon from '../icons/FigmaIcon'
+import Image from 'next/image'
 
 interface Props {
   projectName: string,
@@ -16,10 +15,15 @@ export default function ProjectCard(props: Props) {
         <div className="mx-auto text-center mb-8 rounded-lg bg-white shadow-xl">
           <div className="aspect-video">
             {props.projectScreenshot ?
-              <img
+              <Image
                 className='min-h-full object-cover rounded-t-lg'
                 src={props.projectScreenshot}
                 alt={props.projectName}
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: 'auto' }} // optional
+                unoptimized
               />
               : null
             }
