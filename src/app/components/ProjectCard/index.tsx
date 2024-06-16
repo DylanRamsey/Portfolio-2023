@@ -31,7 +31,7 @@ export default function ProjectCard(props: Props) {
             }
           </div>
           <div className="project_card_content flex flex-col justify-center text-2xl border-solid border-t-2 border-black h-24">
-            <p className="project_card_content__title text-black text-2xl mb-2">{props.projectName}</p>
+            <p className="project_card_content__title text-black text-2xl mb-2 font-semibold">{props.projectName}</p>
             <div className="project_card_content__links flex justify-center items-center rounded-lg gap-2">
             </div>
           </div>
