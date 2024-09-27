@@ -21,7 +21,7 @@ const experience = [
       "Maintained the backend of WordPress websites using PHP and MySQL",
       "Collaborated directly with customers throughout the project lifecycle"
     ],
-    location: "Sarasota, FL"
+    location: "Sarasota, Florida"
   }
 ]
 
