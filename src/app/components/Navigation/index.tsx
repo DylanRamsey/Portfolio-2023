@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import Image from 'next/image'
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Navigation() {
   return (
@@ -11,14 +11,25 @@ export default function Navigation() {
         {/* <li className="transition ease-in-out delay-150 hover:-translate-y-1 duration-300">
           <Link href="/portfolio">Portfolio</Link>
         </li> */}
+        <Link
+          href="/blog"
+          className="transition ease-in-out delay-150 hover:-translate-y-1 duration-300"
+        >
+          Blog
+        </Link>
         <li className="transition ease-in-out delay-150 hover:-translate-y-1 duration-300">
-          <Link href="/resume.pdf" target='_blank'>Resume</Link>
+          <Link href="/resume.pdf" target="_blank">
+            Resume
+          </Link>
         </li>
-        {/* <li className="transition ease-in-out delay-150 hover:-translate-y-1 duration-300">About</li>
-        <li className="transition ease-in-out delay-150 hover:-translate-y-1 duration-300">Blog</li> */}
       </ul>
+      {/* <li className="transition ease-in-out delay-150 hover:-translate-y-1 duration-300">About</li> */}
       <ul className="flex gap-4">
-        <a href="https://github.com/DylanRamsey" target="_blank" className="transition ease-in-out delay-150 hover:-translate-y-1 duration-300">
+        <a
+          href="https://github.com/DylanRamsey"
+          target="_blank"
+          className="transition ease-in-out delay-150 hover:-translate-y-1 duration-300"
+        >
           <Image
             width={35}
             height={35}
@@ -26,7 +37,11 @@ export default function Navigation() {
             alt="Github Icon"
           />
         </a>
-        <a href="https://www.linkedin.com/in/dylan-ramsey/" target="_blank" className="transition ease-in-out delay-150 hover:-translate-y-1 duration-300">
+        <a
+          href="https://www.linkedin.com/in/dylan-ramsey/"
+          target="_blank"
+          className="transition ease-in-out delay-150 hover:-translate-y-1 duration-300"
+        >
           <Image
             width={35}
             height={35}
@@ -36,5 +51,5 @@ export default function Navigation() {
         </a>
       </ul>
     </nav>
-  )
+  );
 }

@@ -1,8 +1,8 @@
-import Hero from './components/Hero';
-import ProjectsSlider from './components/ProjectsSlider';
-import ExperienceTabs from './components/ExperienceTabs';
-import ToolsGrid from './components/ToolsGrid';
-import Footer from './components/Footer'
+import Hero from "./components/Hero";
+import ProjectsSlider from "./components/ProjectsSlider";
+import ExperienceTabs from "./components/ExperienceTabs";
+import ToolsGrid from "./components/ToolsGrid";
+
 export default function Home() {
   return (
     <>
@@ -10,7 +10,6 @@ export default function Home() {
       <ProjectsSlider />
       <ExperienceTabs />
       <ToolsGrid />
-      <Footer />
     </>
-  )
+  );
 }
