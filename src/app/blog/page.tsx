@@ -21,14 +21,14 @@ export default function Blog({ params }: BlogPostProps) {
 
       <ul>
         {posts.map((post) => (
-          <li key={post.id}>
+          <li className="mb-16" key={post.id}>
             <Link href={`/blog/${post.id}`}>
               <div className="mb-8">
                 <h3 className="lg:text-4xl mb-2">{post.title}</h3>
                 <h4 className="lg:text-xl mb-2 font-extralight">
                   {post.description}
                 </h4>
-                <h4>
+                <h4 className="font-extralight">
                   {post.author} | {post.date}
                 </h4>
               </div>
