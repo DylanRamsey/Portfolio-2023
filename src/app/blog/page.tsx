@@ -1,17 +1,11 @@
-//@ts-nocheck
 import Link from "next/link";
 import { getAllPosts } from "../utils/utils";
-import Image from "next/image";
 
-interface BlogPostProps {
-  params: { id: string };
-}
-
-export default function Blog({ params }: BlogPostProps) {
+export default function Blog() {
   const posts = getAllPosts();
 
   return (
-    <main className="container mx-auto px-6 xl:px-0 mb-20">
+    <main className="container mx-4 md:mx-auto px-6 xl:px-0 mb-32">
       <div className="mb-8">
         <h1 className="text-3xl lg:text-6xl mb-2">My Blog</h1>
         <h2 className="text-3xl lg:text-4xl font-extralight mb-8">
@@ -36,7 +30,7 @@ export default function Blog({ params }: BlogPostProps) {
                 <img
                   src={post.image}
                   alt={`Image for ${post.title}`}
-                  className="w-full h-60 object-cover"
+                  className="w-full h-60 object-cover border border-white"
                 />
               )}
             </Link>
