@@ -38,11 +38,6 @@ const projects = [
     name: "Borla",
     link: "https://www.borla.com/",
     screenshot: "/images/screenshots/borla.webp"
-  },
-  {
-    name: "McGraths",
-    link: "https://mcgrathslwr.com/",
-    screenshot: "/images/screenshots/mcgraths.webp"
   }
 ];
 
