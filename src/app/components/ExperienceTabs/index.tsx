@@ -17,7 +17,7 @@ const ExperienceTabs = () => {
       </h2>
       <div className="flex justify-center">
         <Box
-          className="lg:flex border-[3px] rounded-[20px] w-[853px] he-full lg:h-[317px] shadow-xl"
+          className="lg:flex border-[3px] rounded-[8px] w-[853px] shadow-xl"
           id="experienceTabs"
         >
           <Tabs
@@ -39,12 +39,15 @@ const ExperienceTabs = () => {
             {experience.map((job, index) => (
               <TabPanel value={selectedTab} index={index} key={index}>
                 <h3 className="text-2xl">{job.title}</h3>
-                <span className="block">
+                <span className="block mb-[16px]">
                   {job.location} {job.duration}
                 </span>
-                <ul className="list-disc ml-4">
+                <ul className="list-[disclosure-closed] mb-[16px]">
                   {job.bulletpoints.map((bulletpoint, index) => (
-                    <li key={index}>{bulletpoint}</li>
+                    <li className="mb-[14px]" key={index}>
+                      {" "}
+                      {bulletpoint}
+                    </li>
                   ))}
                 </ul>
               </TabPanel>
