@@ -5,9 +5,9 @@ const experience = [
     duration: "2025 - Current",
     bulletpoints: [
       "Built and enhanced web and mobile applications serving 100,000+ users",
-      "Developed and released the “Football Draft Kit” phone application to Android and iOS",
-      "Collaborate with team members in a Scrum setting to architect scalable software systems",
-      "Planned and collaborated with management to estimated work for future sprints",
+      "Developed and released the “RotoWire Fantasy Football” phone application to Android and iOS",
+      "Collaborated with team members and led in an Agile environment to architect scalable software systems",
+      "Processed, analyzed and implemented large datasets spanning all major U.S. professional sports leagues and numerous international leagues",
     ],
     location: "Madison, WI (Remote)"
   },
@@ -16,11 +16,11 @@ const experience = [
     link: "https://www.imarc.com/",
     duration: "2021 - 2024",
     bulletpoints: [
-      "Developed websites and apps for enterprise Internet Service company using Vue Javascript, Laravel PHP and Craft CMS",
-      "Contributed to Laravel PHP API development",
-      "Lead weekly product deployment meetings to release new code and features to production servers",
+      "Developed websites and applications for an enterprise Internet Service Provider using Vue.js and Laravel",
+      "Contributed to the design and development of multiple API systems",
+      "Led weekly product deployment meetings to release new code and features to production servers",
       "Mentored and onboarded new/junior engineers through pair programming and presentations",
-      "Authored detailed documentation for coding standards and processes"
+      "Designed, executed, and analyzed A/B tests to drive data-informed product improvements"
     ],
     location: "Amesbury, MA (Remote)"
   },
@@ -32,7 +32,7 @@ const experience = [
       "Designed, developed, and maintained full-stack websites and web applications",
       "Maintained the backend of websites using PHP and MySQL",
       "Collaborated directly and consistently with stakeholders throughout project lifecycles",
-      "Establish End-to-end and unit testing to ensure application stability and security "
+      "Establish End-to-end and unit testing to ensure application stability and security"
     ],
     location: "Sarasota, FL"
   }
