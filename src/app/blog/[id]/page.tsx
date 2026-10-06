@@ -1,8 +1,12 @@
-import { getPostById } from "@/app/utils/utils";
+import { getAllPosts, getPostById } from "@/app/utils/utils";
 import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 interface BlogPostProps {
   params: { id: string };
+}
+
+export function generateStaticParams() {
+  return getAllPosts().map((post) => ({ id: post.id }));
 }
 
 export async function generateMetadata({ params }: { params: { id: string } }) {

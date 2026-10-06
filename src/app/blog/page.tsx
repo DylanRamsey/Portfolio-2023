@@ -9,7 +9,7 @@ export default function Blog() {
       <div className="mb-8">
         <h1 className="text-3xl lg:text-6xl mb-2">My Blog</h1>
         <h2 className="text-3xl lg:text-4xl font-extralight mb-8">
-          What I've been thinking about lately...
+          What I&apos;ve been thinking about lately...
         </h2>
       </div>
 
