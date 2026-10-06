@@ -14,11 +14,6 @@ export default function Footer() {
           >
             Blog
           </Link>
-          <li className="transition ease-in-out delay-150 hover:-translate-y-1 duration-300">
-            <Link href="/resume.pdf" target="_blank">
-              Resume
-            </Link>
-          </li>
         </ul>
       </div>
     </footer>

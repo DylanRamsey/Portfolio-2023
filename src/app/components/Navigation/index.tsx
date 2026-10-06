@@ -17,11 +17,6 @@ export default function Navigation() {
         >
           Blog
         </Link>
-        <li className="transition ease-in-out delay-150 hover:-translate-y-1 duration-300">
-          <Link href="/resume.pdf" target="_blank">
-            Resume
-          </Link>
-        </li>
       </ul>
       {/* <li className="transition ease-in-out delay-150 hover:-translate-y-1 duration-300">About</li> */}
       <ul className="flex gap-4">
